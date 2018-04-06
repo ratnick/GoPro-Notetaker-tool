@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="14.0" layoutY="106.0" prefHeight="481.0" prefWidth="768.0" style="-fx-border-color: white;" text="For GoPro 5 and above: The camera's wifi connection will timeout unless connected to the GoPro app on a phone for at least 10 minutes. &#10;ViNO can be operated in parallel.&#10;To get started on GoPro 5/6:&#10;&#10;CONNECT MOBILE AND CAMERA:&#10;1. Turn on wifi on camera (Connect =&gt; Connect new device =&gt; GoPro app)&#10;2. Enable both bluetooth and wifi on your phone&#10;3. Connect to GoPro app on your phone (yes - you need a GoPro account)&#10;4. You can set your phone to sleep, but leave the gopro app runining as it keeps the camera alive.&#10;5. After at least 10 minutes, you can disconnect the mobile from the GoPro. Hereafter the GoPro will keep itself alive until you turn off its wifi.&#10;&#10;CONNECT ViNO to GoPro&#10;A. Connect PC/Mac to GoPro Wifi (typically named GPxxxx)&#10;B. In ViNO, click wifi icon (if gray)&#10;C. If ViNO is not running, the PC/Mac's wifi connection to the GoPro will time out. Repeat step A and B.&#10;&#10;&#10;FOR GOPRO 3 and in general:&#10;- Make sure that you are connected to the GoPro camera over wi-fi.&#10;- Press the &quot;Connect&quot; button in the lower left corner and wait for it to indicate that the connection has been established successfully in the lower right corner.&#10;&#10;If this is the first time that you use NoteTaker you will start with a blank note, otherwise it will open the note that you worked on last time.&#10;Everytime you start a new note, you need to set some details about the respondent, the notetaker (you) and the associated video." wrapText="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="100.0" />
+   </children>
+</AnchorPane>

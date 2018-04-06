@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onKeyPressed="#handleKeyPressed" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.keo.nt.view.MediaViewController">
+   <children>
+      <Label fx:id="fileNameLabel" alignment="CENTER" contentDisplay="CENTER" text="Filename001.MP4" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <MediaView fx:id="mediaView" fitHeight="450.0" fitWidth="780.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="30.0" />
+      <VBox layoutX="4.0" layoutY="410.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Separator prefWidth="300.0" />
+            <HBox>
+               <children>
+                  <Slider fx:id="sliderTime" prefHeight="16.0" prefWidth="700.0" />
+                  <Label fx:id="labelTimeProgress" text="00:00/10:15" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <AnchorPane>
+               <children>
+                  <HBox spacing="2.0" AnchorPane.leftAnchor="0.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#handleRewind" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent; -fx-background-image: url('graphics/rewind.png'); -fx-background-repeat: no-repeat; -fx-background-size: 30,30;" />
+                        <Button fx:id="buttonStopRewind" mnemonicParsing="false" onAction="#handleButtonStopRewind" prefHeight="30.0" prefWidth="30.0" style="-fx-background-image: url('graphics/stop.png'); -fx-background-repeat: no-repeat; -fx-background-size: 30,30; -fx-background-color: transparent;" />
+                        <Button fx:id="buttonPlayPause" mnemonicParsing="false" onAction="#handleButtonPlayPause" prefHeight="30.0" prefWidth="30.0" style="-fx-background-image: url('graphics/play.png'); -fx-background-repeat: no-repeat; -fx-background-size: 30,30; -fx-background-color: transparent;" />
+                        <Button mnemonicParsing="false" onAction="#handleForward" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent; -fx-background-image: url('graphics/forward.png'); -fx-background-repeat: no-repeat; -fx-background-size: 30,30;" />
+                     </children>
+                  </HBox>
+                  <AnchorPane AnchorPane.rightAnchor="10.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="10.0" text="Left" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="9.0" />
+                        <Slider fx:id="sliderStereo" blockIncrement="0.1" layoutX="44.0" layoutY="13.0" majorTickUnit="0.1" max="1.0" min="-1.0" minorTickCount="1" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="10.0" />
+                        <Label layoutX="194.0" layoutY="13.0" text="Right" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="9.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

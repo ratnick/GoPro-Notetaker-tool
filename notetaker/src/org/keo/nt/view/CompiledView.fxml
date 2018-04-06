@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.keo.nt.view.CompiledViewController">
+   <children>
+      <SplitPane dividerPositions="0.6" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <MediaView fx:id="mediaView" fitHeight="350.0" fitWidth="455.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="30.0" />
+                  <Label fx:id="fileNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" text="Filename001.MP4" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                  <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="10.0" layoutX="49.0" layoutY="398.0" prefHeight="50.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <children>
+                        <Separator prefWidth="300.0">
+                           <FlowPane.margin>
+                              <Insets bottom="5.0" top="20.0" />
+                           </FlowPane.margin>
+                        </Separator>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="300.0" text="Video control" textAlignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                           <FlowPane.margin>
+                              <Insets bottom="15.0" />
+                           </FlowPane.margin>
+                        </Label>
+                        <ButtonBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="40.0" prefWidth="300.0">
+                          <buttons>
+                              <Label fx:id="labelTimeProgress" text="00:00/10:15" />
+                              <Button fx:id="buttonStopRewind" mnemonicParsing="false" onAction="#handleButtonStopRewind" text="Stop" />
+                              <Button fx:id="buttonPlayPause" mnemonicParsing="false" onAction="#handleButtonPlayPause" prefWidth="60.0" text="Play" />
+                          </buttons>
+                        </ButtonBar>
+                        <AnchorPane prefHeight="35.0" prefWidth="300.0">
+                           <children>
+                              <Slider fx:id="sliderTime" prefHeight="16.0" prefWidth="300.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0" />
+                           </children>
+                        </AnchorPane>
+                        <Separator prefWidth="300.0">
+                           <FlowPane.margin>
+                              <Insets bottom="5.0" top="20.0" />
+                           </FlowPane.margin>
+                        </Separator>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="300.0" text="Stereo control" textAlignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                           <FlowPane.margin>
+                              <Insets bottom="5.0" />
+                           </FlowPane.margin>
+                        </Label>
+                        <AnchorPane prefHeight="35.0" prefWidth="300.0">
+                           <children>
+                              <Label layoutX="14.0" layoutY="10.0" text="Left" AnchorPane.leftAnchor="0.0" />
+                              <Slider fx:id="sliderStereo" blockIncrement="0.1" layoutX="44.0" layoutY="13.0" majorTickUnit="0.1" max="1.0" min="-1.0" minorTickCount="1" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="44.0" />
+                              <Label layoutX="194.0" layoutY="13.0" text="Right" AnchorPane.rightAnchor="0.0" />
+                           </children>
+                           <FlowPane.margin>
+                              <Insets bottom="20.0" />
+                           </FlowPane.margin>
+                        </AnchorPane>
+                     </children>
+                  </FlowPane>
+               </children>
+            </AnchorPane>
+            <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" prefHeight="600.0" prefViewportHeight="600.0" prefViewportWidth="315.0" prefWidth="280.0" SplitPane.resizableWithParent="false">
+              <content>
+                <AnchorPane maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="315.0">
+                     <children>
+                        <VBox fx:id="vbox" layoutX="5.0" layoutY="10.0" maxWidth="-Infinity" prefWidth="315.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

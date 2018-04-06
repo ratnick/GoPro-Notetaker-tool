@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.keo.nt.view.NoteDetailsViewController">
+   <children>
+      <GridPane layoutX="25.0" layoutY="155.0" prefHeight="150.0" prefWidth="750.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="NEVER" maxWidth="369.0" minWidth="10.0" prefWidth="179.0" />
+          <ColumnConstraints hgrow="NEVER" maxWidth="592.0" minWidth="10.0" prefWidth="548.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="592.0" minWidth="10.0" prefWidth="97.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <Label text="Respondents first name" GridPane.vgrow="ALWAYS" />
+            <Label text="Respondents last name" GridPane.rowIndex="1" />
+            <Label text="Respondent ID" GridPane.rowIndex="2" />
+            <Label text="Note taker" GridPane.rowIndex="3" />
+            <Label text="Video file directory" GridPane.rowIndex="4" />
+            <TextField fx:id="firstName" onKeyPressed="#handleKeyEvent" promptText="E.g. Hanzhe" GridPane.columnIndex="1" />
+            <TextField fx:id="lastName" onKeyPressed="#handleKeyEvent" promptText="E.g. Xue" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="respondentId" onKeyPressed="#handleKeyEvent" promptText="E.g. 101" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="noteTaker" onKeyPressed="#handleKeyEvent" promptText="E.g. John Doe" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="videoLocation" prefWidth="530.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#handleOpenDir" text="Open..." GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <ImageView fx:id="firstNameCheck" fitHeight="30.0" fitWidth="30.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../../../../../resources/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lastNameCheck" fitHeight="30.0" fitWidth="30.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../../resources/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="respondentIdCheck" fitHeight="30.0" fitWidth="30.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../../../../../resources/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="noteTakerCheck" fitHeight="30.0" fitWidth="30.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../../../../../resources/checkmark.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <Label layoutX="25.0" layoutY="14.0" text="Note details">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="63.0" text="Please enter the note details in order to make it interactive." />
+      <ButtonBar layoutX="586.0" layoutY="546.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="25.0">
+        <buttons>
+          <Button cancelButton="true" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#handleSave" text="Save" />
+        </buttons>
+      </ButtonBar>
+      <Label layoutX="27.0" layoutY="79.0" text="You can always access the details again from the menu &quot;Edit-&gt;Edit note details&quot;" />
+      <Text layoutX="27.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The video file directory is filled in when you import the videos." AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="321.0" />
+      <Text layoutX="27.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="After import, you can compile the note and the timestamp will open the video exactly where you created it." AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="339.0" />
+   </children>
+</AnchorPane>

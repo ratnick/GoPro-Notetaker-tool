@@ -1,0 +1,54 @@
+.highlight {
+	-fx-fill: yellow;
+}
+
+.root {
+	-fx-focus-color: transparent;
+}
+
+#buttoncam {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/button_camera.png);
+	-fx-background-repeat: no-repeat;
+}
+
+#buttoncam:selected {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/button_camera_selected.png);
+	-fx-background-repeat: no-repeat;
+}
+
+#buttonhd {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/button_harddrive.png);
+	-fx-background-repeat: no-repeat;
+}
+
+#buttonhd:selected {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/button_harddrive_selected.png);
+	-fx-background-repeat: no-repeat;
+}
+
+#open {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/open.png);
+	-fx-background-repeat: no-repeat;
+}
+
+#open:pressed {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/open_pressed.png);
+	-fx-background-repeat: no-repeat;
+}
+
+#open:hover {
+	-fx-background-color: transparent;
+	-fx-background-image: url(/graphics/open_hover.png);
+	-fx-background-repeat: no-repeat;
+}
+
+.textfield {
+	-fx-background-color: white;
+	-fx-focus-color: white;
+}
