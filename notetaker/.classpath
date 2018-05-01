@@ -4,34 +4,42 @@
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ViNO libs"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/httpasyncclient-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/httpasyncclient-cache-4.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/httpclient-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/httpclient-cache-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/httpcore-4.4.5.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-asyncclient-4.1.2/lib/httpcore-nio-4.4.5.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/fluent-hc-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/httpclient-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/httpclient-cache-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/httpclient-win-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/httpcore-4.4.4.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/httpmime-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-client-4.5.2/lib/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-core-4.4.5/lib/commons-cli-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-core-4.4.5/lib/httpcore-4.4.5.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-core-4.4.5/lib/httpcore-ab-4.4.5.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/httpcomponents-core-4.4.5/lib/httpcore-nio-4.4.5.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/aspectjrt-1.8.9.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/isoparser-1.1.21.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/jmtp.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/jsoup-1.9.2.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/richtextfx-0.6.10.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/richtextfx-fat-0.6.10.jar"/>
-	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/GIT/ViNO/libs/json/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/httpasyncclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/httpasyncclient-cache-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/httpcore-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-asyncclient-4.1.2/lib/httpcore-nio-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/fluent-hc-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/httpclient-win-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-client-4.5.2/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-core-4.4.5/lib/commons-cli-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/lib/httpcomponents-core-4.4.1/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-core-4.4.5/lib/httpcore-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-core-4.4.5/lib/httpcore-ab-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/httpcomponents-core-4.4.5/lib/httpcore-nio-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/aspectjrt-1.8.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/isoparser-1.1.21.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/jmtp.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/richtextfx-0.6.10.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/richtextfx-fat-0.6.10.jar"/>
+	<classpathentry kind="lib" path="C:/data_no_backup_active/Google Drive/Volvo_dailybackup/VinoDev/libs/json/java-json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
