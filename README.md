@@ -18,36 +18,27 @@ Developed on PC Win7. Original development on Mac.
 Latest version only tested on PC Win7. "Should" work on Mac.
 No automated tests. A few test stubs within the code.
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Eclipse used as IDE.
+* No build tool (like Maven) used
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Kee Olsen, Volvo Car Corporation** - *Initial work on Hero3* 
 * **Nikolaj Nøhr-Rasmussen, Volvo Car Corporation** - *Additional functionality and upgrade to Hero 4,5,6* 
+* **Kee Olsen, Volvo Car Corporation** - *Initial work on Hero3* 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is free to use for all. Please acknowledge the authors.
 
 ## Acknowledgments
 
-* Heavy use of code and info from KonradIT on GoPro API (https://github.com/KonradIT)
+* Heavy use of code and information from @KonradIT on GoPro API (https://github.com/KonradIT)
 * Heavy use of code from Reindahl and Pieter De Rycke's JMTP libraries (https://github.com/reindahl/jmtp)
 
 
